@@ -1,4 +1,4 @@
-# Ducktableit Assignment
+# Ducktaleit Assignment
 
 Task 1:
 
