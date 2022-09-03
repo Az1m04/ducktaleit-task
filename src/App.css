@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+input {
+  width: 100%;
+  padding: 1em;
+  margin-top: 1rem;
+  width: 25em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #e4e6e8;
+  transition: 0.1s ease;
+}
+
+select {
+  width: 100%;
+  padding: 1em;
+  margin-top: 1rem;
+  width: 25em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #e4e6e8;
+  transition: 0.1s ease;
+}
+
+select > option {
+  padding: 1em;
+
+}
+input:hover {
+  border-color:  rgb(16, 161, 28);;
+}
+
+select:hover {
+  border-color:  rgb(16, 161, 28);;
+}
+
+
+button:hover {
+  background-color: rgb(16, 161, 28);
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  margin: 1em;
+  padding: 1em;
+  gap: 20px;
+
+}
+.formWrapper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.formWrapper > button {
+  margin: 0.8em;
+  padding: 1em;
+  margin-top: 2.8rem;
+  border: 1px solid #e4e6e8;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 12rem;
+  transition: 0.1s ease-in;
+}
+
+.header> .headerText{
+  text-align: center;
+  background-color:  #e4e6e8;;
+  font-size: larger;
+  font-weight: 700;
+  border-bottom: 0.8px solid gray;
+  border-top: 0.8px solid gray;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+.header{
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tableContainer{
+max-height: 60vh;
+overflow-y: scroll;
+}
+table{
+  width: 100%;
+
+}
+table > tr >th {
+  background-color: rgb(87, 184, 95); ;
+  padding: 1rem;
+  position: sticky;
+  top:0px;
+}
+table > tr >td {
+  background-color: rgb(247, 247, 247); ;
+  padding: 0.6rem;
+}
+.btn{
+  padding: 0.6em;
+  border: 1px solid #e4e6e8;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 4rem;
+  transition: 0.1s ease-in;
+}
+.btn-delete{
+  padding: 0.6em;
+  margin-left: 10px;
+  border: 1px solid #e4e6e8;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 4rem;
+  transition: 0.1s ease-in;
+}
+
+.btn-delete:hover{
+  background-color: rgb(221, 76, 39);
+  color: white;
+}
+.searchContainer{
+  width: 30%;
+  padding: 1em;
+  margin: 1rem 0rem;
+  
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #e4e6e8;
+  transition: 0.1s ease;
+}
