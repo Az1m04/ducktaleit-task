@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Ducktableit Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Task 1:
+
+Create a Table named Employees Data and it will have below mentioned fields
+
+·         Employees Name -> Name of employees(textbox)
+
+·         Departments -> Name of Departments (BackEnd, FrontEnd) (textarea)
+
+·         Salary ->  Mention the salary(textbox)
+
+All fields are required.
+
+Add, Update, Delete Employee Information using Mock Data.
+
+
+Task 2:
+
+Search filter for the following
+- Check Lowest & highest Salary.
+- Department wise data.
+
+
 
 ## Available Scripts
 
